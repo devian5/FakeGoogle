@@ -1,0 +1,104 @@
+.container {
+    display:flex;
+    flex-direction: column;
+}
+
+.containerButton {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 0.5em;
+}
+
+.containerOptions {
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-top: 0.5em;
+}
+
+.containerBrowser {
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.containerLogo {
+    display: flex;
+    justify-content: center;
+    padding-top: 8em;
+}
+
+.containerLanguage {
+    display: flex;
+    justify-content: center;
+}
+
+.containerLocation{
+    display: flex;
+    padding-top: 11em;
+    
+     
+}
+
+.gmail {
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+    
+}
+
+.signin {
+    display: flex;
+    background-color: rgb(49, 135, 248);
+    height: 2em;
+    width: 4em;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.2em;
+    
+}
+
+.browser {
+    display: flex;
+    width: 50em;
+    height: 2em;
+    border-radius: 2em;
+}
+
+.logo {
+    display: flex;
+    width: 20em;
+    height: 8em;
+    justify-content: center;
+}
+
+.botton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0em 0.5em 0em 0.5em;    
+}
+
+.language {
+    display: flex;
+    width: max-content;
+    margin: 1em;
+}
+
+.location {
+    display: flex;
+    width: 250vh;
+    height: 2.8em;
+    background-color: rgba(242,242,242);
+    align-items: center;
+    justify-content: flex-start;   
+}
